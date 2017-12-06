@@ -1,0 +1,160 @@
+
+==============================================
+START : FUNC_BUILD_KERNEL
+==============================================
+
+build common config=exynos8895-dreamlte_eur_open_defconfig 
+build model config=dreamlte 
+rm files in : /home/geiti94/android/kernel/NEMESIS_KERNEL_S8_N8/arch/arm64/boot/dts/*.dtb
+rm: cannot remove '/home/geiti94/android/kernel/NEMESIS_KERNEL_S8_N8/arch/arm64/boot/dts/*.dtb': No such file or directory
+rm: cannot remove '/home/geiti94/android/kernel/NEMESIS_KERNEL_S8_N8/arch/arm64/boot/boot.img-dtb': No such file or directory
+rm: cannot remove '/home/geiti94/android/kernel/NEMESIS_KERNEL_S8_N8/arch/arm64/boot/boot.img-zImage': No such file or directory
+Kconfig:15:warning: environment variable ANDROID_MAJOR_VERSION undefined
+drivers/sensorhub/brcm/bbdpl/Kconfig:1:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:2:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:3:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:4:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:4:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:6:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:7:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:8:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:9:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:9:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:12:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:13:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:14:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:15:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:15:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:18:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:19:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:20:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:21:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:21:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+boolean symbol SND_SOC_MAX98506 tested for 'm'? test forced to 'n'
+#
+# configuration written to .config
+#
+scripts/kconfig/conf  --silentoldconfig Kconfig
+Kconfig:15:warning: environment variable ANDROID_MAJOR_VERSION undefined
+drivers/sensorhub/brcm/bbdpl/Kconfig:1:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:2:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:3:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:4:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:4:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:6:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:7:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:8:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:9:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:9:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:12:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:13:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:14:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:15:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:15:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:18:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:19:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:20:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:21:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:21:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+drivers/sensorhub/brcm/bbdpl/Kconfig:24:warning: ignoring unsupported character ''
+boolean symbol SND_SOC_MAX98506 tested for 'm'? test forced to 'n'
+INFO: CC is /home/geiti94/android/toolchain/aarch64-cortex_a53-linux-gnueabi-gcc/bin/aarch64-cortex_a53-linux-gnueabi-gcc
+  CHK     include/config/kernel.release
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+  CHK     include/generated/timeconst.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+drivers/net/wireless/bcmdhd4361/Makefile:295: Not found Android version file. Set None
+  OBJCOPY arch/arm64/boot/Image
+  GZIP    arch/arm64/boot/Image.gz
+Processing dts files...
+=> Processing: exynos8895-dreamlte_eur_open_01.dts
+=> Generating: exynos8895-dreamlte_eur_open_01.dtb
+=> Processing: exynos8895-dreamlte_eur_open_02.dts
+=> Generating: exynos8895-dreamlte_eur_open_02.dtb
+=> Processing: exynos8895-dreamlte_eur_open_03.dts
+=> Generating: exynos8895-dreamlte_eur_open_03.dtb
+=> Processing: exynos8895-dreamlte_eur_open_04.dts
+=> Generating: exynos8895-dreamlte_eur_open_04.dtb
+=> Processing: exynos8895-dreamlte_eur_open_05.dts
+=> Generating: exynos8895-dreamlte_eur_open_05.dtb
+=> Processing: exynos8895-dreamlte_eur_open_07.dts
+=> Generating: exynos8895-dreamlte_eur_open_07.dtb
+=> Processing: exynos8895-dreamlte_eur_open_08.dts
+=> Generating: exynos8895-dreamlte_eur_open_08.dtb
+=> Processing: exynos8895-dreamlte_eur_open_09.dts
+=> Generating: exynos8895-dreamlte_eur_open_09.dtb
+=> Processing: exynos8895-dreamlte_eur_open_10.dts
+=> Generating: exynos8895-dreamlte_eur_open_10.dtb
+Generating dtb.img...
+=> Found compatible entry: samsung, DREAMLTE EUR rev00 (INFINITY rev0.4)
+    (chip: 8895, hw_rev: 1, hw_rev_end: 1)
+=> Found compatible entry: samsung, DREAMLTE EUR rev00 (INFINITY rev0.5)
+    (chip: 8895, hw_rev: 2, hw_rev_end: 2)
+=> Found compatible entry: samsung, DREAMLTE EUR rev00
+    (chip: 8895, hw_rev: 3, hw_rev_end: 3)
+=> Found compatible entry: samsung, DREAMLTE EUR rev00A
+    (chip: 8895, hw_rev: 4, hw_rev_end: 4)
+=> Found compatible entry: samsung, DREAMLTE EUR rev01
+    (chip: 8895, hw_rev: 5, hw_rev_end: 6)
+=> Found compatible entry: samsung, DREAMLTE EUR rev02
+    (chip: 8895, hw_rev: 7, hw_rev_end: 7)
+=> Found compatible entry: samsung, DREAMLTE EUR rev03
+    (chip: 8895, hw_rev: 8, hw_rev_end: 8)
+=> Found compatible entry: samsung, DREAMLTE EUR rev04/rev05
+    (chip: 8895, hw_rev: 9, hw_rev_end: 9)
+=> Found compatible entry: samsung, DREAMLTE EUR rev06
+    (chip: 8895, hw_rev: 10, hw_rev_end: 255)
+Done.
+
+=================================
+END   : FUNC_BUILD_KERNEL
+=================================
+
+[3J[H[2J 
+Android Image Kitchen - RepackImg Script
+by osm0sis @ xda-developers
+ 
+Warning: Overwriting existing files!
+ 
+Packing ramdisk...
+ 
+Using compression: gzip
+ 
+Getting build information...
+kernel = boot.img-zImage
+cmdline = 
+board = SRPPH16A001KU
+base = 10000000
+pagesize = 2048
+kernel_offset = 00008000
+ramdisk_offset = 01000000
+second_offset = 00f00000
+tags_offset = 00000100
+os_version = 7.0.0
+os_patch_level = 2017-08
+hash = sha1
+dtb = boot.img-dtb
+ 
+Building image...
+ 
+Using format: AOSP
+ 
+Appending footer...
+ 
+Using type: SEAndroid
+ 
+Done!
+Total compile time was 7 seconds
